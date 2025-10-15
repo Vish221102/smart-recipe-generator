@@ -4,7 +4,6 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 import { ChefHat, UserCircle, Sparkles, Camera, ArrowLeft, Clock, Flame, Star, X, CheckCircle, AlertCircle, Heart } from 'lucide-react';
 
-// --- Firebase Configuration (kept for potential future use, but not actively used for users) ---
 const firebaseConfig = {
     apiKey: "AIzaSyBH6kq7Umb8WqMCpRUgEfMRjK38PADhO4Q",
     authDomain: "recipe-generator-e89b5.firebaseapp.com",
